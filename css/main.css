@@ -125,31 +125,17 @@ divf {
 
 /* HEADER AND FOOTER */
 
-/*GRADIENT BACKGROUND*/
+/* BACKGROUND*/
 html, body {
   width: 100%;
   height:100%;
 }
 
 body {
-    /*background: linear-gradient(-20deg, #a8ffd4, #ffffff, #85bcff);*/
     background-size: 600% 600%;
     background: #d2ebff;
-    /*animation: gradient 10s ease infinite;*/
-}
-
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
-/*GRADIENT BACKGROUND*/
+ }
+/* BACKGROUND*/
 
 /* SPINNER*/
 .rotate {
