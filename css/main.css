@@ -132,9 +132,10 @@ html, body {
 }
 
 body {
-    background: linear-gradient(-20deg, #a8ffd4, #ffffff, #85bcff);
+    /*background: linear-gradient(-20deg, #a8ffd4, #ffffff, #85bcff);*/
     background-size: 600% 600%;
-    animation: gradient 10s ease infinite;
+    background: #d2ebff;
+    /*animation: gradient 10s ease infinite;*/
 }
 
 @keyframes gradient {
